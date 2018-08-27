@@ -13,9 +13,9 @@ $(document).ready(function(){
 	})
 
 	// wow plugin initialize
-	if(screen.width > 768){
+	
 		new WOW().init();
-	}
+	
 	
 
 	// fancybox plugin options
@@ -24,7 +24,7 @@ $(document).ready(function(){
 	});
 
 	// stellar plugin initialize
-	if(screen.width > 768){
+	
 		$(window).stellar();
-	}
+	
 })
